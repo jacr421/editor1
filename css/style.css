@@ -1,0 +1,140 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: url(../img/bg.jpg);
+}
+
+#text {
+    background-color: rgba(0, 255, 0, .3);
+    padding: 30px;
+    border: 2px solid red;
+    width: 60%;
+    margin: 0 auto;
+    height: 35vh;
+    overflow: auto;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    margin: 0 auto;
+}
+
+#style {
+    color: white;
+    display: none;
+    height: 100%;
+    position: relative;
+}
+
+.redag {
+    background-color: rgba(0, 0, 240, .3);
+    background-color: ;
+    height: 45vh;
+    border: 2px solid blue;
+    padding: 20px;
+    width: 60%;
+    margin: 0 auto;
+
+}
+
+#container input {
+    margin: 20px 0;
+}
+
+#ta {
+
+    width: 100%;
+    height: 30vh;
+}
+
+#form2 {
+    display: inline-block;
+    width: 50%;
+}
+
+#colors {
+    position: absolute;
+    left: 300px;
+    top: 50px;
+    display: none;
+    flex-wrap: wrap;
+    width: 150px;
+    height: 150px;
+}
+
+table,
+th,
+td {
+    /*    border: 1px solid black;*/
+    border-collapse: collapse;
+}
+
+.color {
+    width: 50px;
+    height: 50px;
+}
+
+.color1 {
+    background-color: aqua;
+}
+
+.color2 {
+    background-color: black;
+}
+
+.color3 {
+    background-color: blue;
+}
+
+.color4 {
+    background-color: blueviolet;
+}
+
+.color5 {
+    background-color: coral;
+}
+
+.color6 {
+    background-color: darkcyan;
+}
+
+.color7 {
+    background-color: fuchsia;
+}
+
+.color8 {
+    background-color: cornsilk;
+}
+
+.color9 {
+    background-color: darkgoldenrod;
+}
+
+#addTable {
+    padding: 30px;
+    background: rgba(52, 102, 130, 0.8);
+    width: 50%;
+    margin: 0 auto;
+    display: none;
+}
+
+#addTable input {
+    width: 30px;
+    margin-top: 20px;
+}
+
+#list {
+    display: none;
+}
+
+#list input {
+    margin: 10px;
+}
+
+#saf {
+    width: 50px;
+}
